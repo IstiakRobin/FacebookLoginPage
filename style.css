@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mid-content{
+    width: 1000px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    width: 40%;
+}
+body,h1,h2,h3,h4,h5,h6,span,a li{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header-section{
+    background-color: #3a5795;
+    width: 100%;
+    height: 86px;
+    padding: 15px;
+}
+.logo{
+    width: 60%;
+}
+.user-name{}
+.user-name span{
+    color: white;
+    font-size: 13px;
+}
+.user-name input{
+    display: inline-block;
+    display: block;
+}
+.user-name .cheak{
+    float: left;
+    margin-top: 3px;
+    margin-right: 2px
+}
+.user-name p{
+    font-size: 12px;
+    display: inline-block;
+    color: #ffffffb3;
+    cursor: pointer;
+}
+.password{}
+.password p{
+    font-size: 13px;
+    color: white;
+    font-weight: 700;
+    transform: translate(187px, -55px)
+}
+.password input{
+    transform: translate(186px, -52px );
+}
+.password a{
+    font-size: 12px;
+    color: #ffffffb8;
+    margin-left: 10px;
+    margin-top: 0px;
+    transform: translateY(-33px);
+    display: inline-block;
+    cursor: pointer;
+}
+.header-section .btn{
+    transform: translate(94px, -73px);
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    background: #5a74a8;
+    display: inline-block;
+    padding: 0px 1px;
+    margin-left: 272px;
+}
+.second-section{
+    background-color: #edf0f5;
+    padding: 60px 0px;
+    height: 580px;
+}
+.left-content{width: 60%;}
+.left-content p{
+    transform: translate(71px, -63px);
+    font-size: 18px;
+    font-weight: 700;
+}
+.left-content h3{
+    font-size: 25px;
+    line-height: 1.5em;
+    margin-bottom: 35px;
+}
+.left-content img{
+    margin-right: 25px;
+    margin-bottom: 25px;
+    width: 50px;
+}
+.left-content span{
+    font-weight: normal;
+    font-size: 13px;
+    color: #888080;
+    margin-left: 10px;
+}
+.right-content{width: 40%;}
+.right-content{
+    margin-top: -30px;
+}
+.right-content h1{
+    margin-bottom: 10px;
+}
+.right-content p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #b18989;
+}
+.right-content input{
+    padding: 9px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #00000024;
+    margin-bottom: 10px;
+}
+input.w-50{
+    width: 197px;
+}
+input.w-100{
+    width: 398px;
+}
+.birthday-feild{}
+.birthday-feild h1{
+    font-size: 22px;
+    color: #a9a3a3;
+}
+.birthday-feild select{
+    margin-bottom: 10px;
+}
+.birthday-feild a{
+    font-size: 13px;
+}
+.birthday-feild #month{}
+.birthday-feild #day{}
+.birthday-feild #year{}
+.gender{}
+.gender input{}
+.gender label{
+}
+.terms{}
+.terms p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.terms a{}
+.signup-btn{}
+.signup-btn button{
+    margin: 12px 0;
+    padding: 6px 27px;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 5px;
+    border: 1px solid #dddddd59;
+    background: #63a450;
+    color: white;
+}
+.boder{}
+p.createapage {
+    font-size: 15px;
+    margin-top: 5px;
+}
+.createapage a{
+    font-weight: 700;
+}
+.footer-area{}
+.langueage_menu{}
+.langueage_menu ul{}
+.langueage_menu ul li{
+    display: inline-block;
+}
+.langueage_menu ul li a{
+    font-size: 12px;
+    margin-right: 4px;
+    padding: 5px 0px;
+    display: inline-block;
+}
+.footer-menu{}
+.menu_item{
+    color: #3b5998;
+    float: left;
+    font-size: 12px;
+    text-align: left;
+    width: 8%;
+    margin-right: 8px;
+}
+.menu_item ul li{
+}
+.menu_item ul li a{
+    font-size: 12px;
+    margin-right: 4px;
+    padding: 5px 0px;
+    display: inline-block;
+}
